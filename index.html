@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Text Formating Tags</p><br>
+    <h1>Heading 1</h1><br>
+    <h2>Heading 2</h2><br>
+    <h3>Heading 3</h3><br>
+    <h4>Heading 4</h4><br>
+    <h5>Heading 5</h5><br>
+    <h6>Heading 6</h6><br>
+
+    <p>This is a paragraph tag</p><br>
+    <b>This is a bold text</b><br><br>
+    <em>This is a emphasized text</em><br><br>
+    <u>This is a underline text</u><br><br>
+    <mark>This is a marked text</mark><br><br>
+    <p>This ia a <del>delete text</del> and <ins>insert text</ins></p><br>
+    <p>This is a <sub>subscript</sub> and <sup>superscript</sup></p><br>
+
+    <p>Unordered List</p><br>
+    <ul>
+        <li>Green</li>
+        <li>Yellow</li>
+        <li>Blue</li>
+        <li>Brown</li>
+    </ul><br>
+
+    <p>Ordered List</p><br>
+    <ol>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Blueberry</li>
+    </ol><br>
+
+    <table border="2" cellspacing = "0" cellpadding = "10">
+        <tr class="table">
+            <th colspan="8">TIME TABLE</th>
+        </tr>
+        <tr>
+            <th></th>
+            <td>9:00 to 10:00</td>
+            <td>10:00 to 11:00</td>
+            <td>11:15 to 12:15</td>
+            <td>12:15 to 1:15</td>
+            <td>1:15 to 2:15</td>
+            <td>2:15 to 3:15</td>
+            <td>3:15 to 4:15</td>
+        </tr>
+        <tr>
+            <th>MON</th>
+            <td>ENG</td>
+            <td>DS</td>
+            <td colspan="2">DS Lab & DBMS Lab</td>
+            <td rowspan="6">L<br>U<br>N<br>C<br>H<br> <br>B<br>R<br>E<br>A<br>K
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>TUE</th>
+            <td></td>
+            <td>DS</td>
+            <td colspan="2">DS Lab & DBMS Lab</td>
+            <td>DBMS</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>WED</th>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td colspan="2">DS Lab & DBMS Lab</td>
+            <td>ENG</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>THUR</th>
+            <td>HIN</td>
+            <td>DS</td>
+            <td>OS</td>
+            <td></td>
+            <td>IC</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>FRI</th>
+            <td>DBMS</td>
+            <td>HIN</td>
+            <td>OS</td>
+            <td>DS</td>
+            <td></td>
+            <td>IC</td>
+        </tr>
+        <tr>
+            <th>SAT</th>
+            <td>HIN</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td>ENG</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br><br>
+
+    <p>Anchor Tag</p><br>
+    <a href="https://www.freepik.com/free-photos-vectors/nature-drawing">Click the link to know about drawings</a><br><br>
+
+    <p>Image Tag</p><br>
+    <img src="C:\Users\STUDENT\Desktop\image.jpg" alt="Image not found" width="250" height="250"><br><br>
+
+    <p>Video Tag</p><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BHACKCNDMW8?si=0IdKgSi2K9bNjXps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+
+    <p>Form Tag</p>
+    <form class="form">
+        <label>Firstname</label>
+        <input type="text" name="firstname"><br><br>
+        <label>Middlename</label>
+        <input type="text" name="middlename"><br><br>
+        <label>Lastname</label>
+        <input type="text" name="lastname"><br><br>
+        <label>Gender</label><br>
+        <input type="radio" name="female" id="gender" value="gender">Female<br>
+        <input type="radio" name="male" id="gender" value="gender">Male<br>
+        <input type="radio" name="others" id="gender" value="gender">Others<br><br>
+        <label>Date of birth</label>
+        <input type="date" name="dob"><br><br>
+        <label>Email</label>
+        <input type="email" name="email"><br><br>
+        <label>Password</label>
+        <input type="password" name="password"><br><br>
+        <label>Phone</label>
+        <input type="number" name="phone"><br><br>
+        <label>Course</label><br>
+        <select>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>BBA</option>
+            <option>MBA</option>
+            <option>B.Tech</option>
+            <option>M.Tech</option>
+        </select><br><br>
+        <label>Select Games</label><br>
+        <input type="checkbox">Cricket
+        <input type="checkbox">Hockey
+        <input type="checkbox">Basketball
+        <input type="checkbox">Football <br><br>
+        <input type="button" value="submit">
+        <input type="button" value="reset">
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
